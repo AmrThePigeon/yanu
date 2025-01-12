@@ -16,7 +16,7 @@ proot() {
 
 # Patches to make yanu work
 apply_workaround_patches() {
-    # Workaround for https://github.com/nozwock/yanu/issues/44
+    # Workaround for https://github.com/Amr112345/yanu/issues/44
     proot '
     if [[ ! -f "/usr/lib/aarch64-linux-gnu/libbfd-2.38-system.so" ]]; then
         ln -sf "$(find /usr/lib/aarch64-linux-gnu/ -type f -name '"'libbfd*.so'"' | head -n1)" '"'/usr/lib/aarch64-linux-gnu/libbfd-2.38-system.so'
