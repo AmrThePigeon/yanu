@@ -11,7 +11,7 @@ err() {
 # $1 - command string
 proot() {
     printf >&2 "\e[1;97m%s\n%s\n\e[0m" "Running in PROOT:" "$1"
-    proot-distro login ubuntu-oldlts -- bash -c "$1"
+    proot-distro login ubuntu -- bash -c "$1"
 }
 
 # Patches to make yanu work
