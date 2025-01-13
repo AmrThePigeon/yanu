@@ -30,12 +30,12 @@ Precompiled binaries are available from the [GitHub releases page](https://githu
 
 ### Android w/Termux
 
-> **Check out [Video Tutorial](https://teddit.net/r/EmulationOnAndroid/comments/11ui6v8) by SmokeyMC for Android.**
+> **Check out [Video Tutorial](https://reddit.com/r/EmulationOnAndroid/comments/11ui6v8) by SmokeyMC for Android.**
 
 1. Download & Install `Termux` from [F-droid](https://f-droid.org/en/packages/com.termux/).
 2. Copy-paste the following in `Termux` and hit enter:
   ```console
-  bash <(curl -L https://raw.githubusercontent.com/nozwock/yanu/main/scripts/yanu-bootstrap-termux.sh)
+  bash <(curl -L https://raw.githubusercontent.com/Amr112345/yanu/main/scripts/yanu-bootstrap-termux.sh)
   ```
 
 Relevant resources:
