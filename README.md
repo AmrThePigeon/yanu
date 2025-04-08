@@ -1,6 +1,6 @@
 <div align="center">
 
-# yanu
+# yanu (Fixed by AmrThePigeon)
 Yet Another NSP Updater for [Skyline](https://github.com/skyline-emu/skyline)
 
 **Consider starring 🌟 the project if it helped**
